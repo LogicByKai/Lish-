@@ -1,0 +1,6 @@
+{
+  "name": "Vanguard Checkpoint - Corporate Check-in & Check-out System",
+  "description": "Full-stack enterprise check-in and check-out management system for company visitors, employees, badges, and equipment with live roster and logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

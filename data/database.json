@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Alexandra Miller",
+      "email": "admin@vanguardhq.com",
+      "passwordHash": "dedc925755a99ac7a81914a5328c82d9:fefba7b7a1f2c59020ba6c465d56f26a7b379873ef843b8b7303c625617683abeb9e2b62c1dd685c3f0e4aa22538a5f6a35a50b4a502b014adb130c3d2a0c774",
+      "role": "admin",
+      "department": "Executive Operations",
+      "badgeNumber": "SEC-001",
+      "createdAt": "2026-10-07T12:39:14.035Z"
+    },
+    {
+      "id": "user-reception",
+      "name": "Front Desk Reception",
+      "email": "reception@vanguardhq.com",
+      "passwordHash": "ed7c84333f4870678c742fc0a738e213:a2a5570d3b40a1db1d69d6e67e60ea00dc1ef1bcef33477fe410dd7b888ac903969f699f4024d0c9867ac3cd197a7086c1402562347a06f7855aec0e17a35659",
+      "role": "receptionist",
+      "department": "Guest Services",
+      "badgeNumber": "REC-002",
+      "createdAt": "2026-10-07T12:39:14.088Z"
+    },
+    {
+      "id": "user-elena",
+      "name": "Dr. Elena Rostova",
+      "email": "elena.rostova@vanguardhq.com",
+      "passwordHash": "60972a1ec1eecfe746422a6155e6f8e8:a444439592a37bde08d27e8fbe037d7a699283445e07f2ba3965a98bbecf2c874179076f976bb1cd6534c81e3ebe29ab6ad7ada5610a5475faebab092e16b315",
+      "role": "employee",
+      "department": "Engineering",
+      "badgeNumber": "EMP-014",
+      "createdAt": "2026-10-07T12:39:14.133Z"
+    },
+    {
+      "id": "user-marcus",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@vanguardhq.com",
+      "passwordHash": "0438ca39ea7221c4a25bd1f8b7bcda7d:6c4eb20d9180797147abdf0058cde34814132d06d5080a3cdbf01982443e1af4656d8f4e39ebb366f391fb18b142442da6aab45785566279cc12974abddbd523",
+      "role": "employee",
+      "department": "Product",
+      "badgeNumber": "EMP-022",
+      "createdAt": "2026-10-07T12:39:14.180Z"
+    }
+  ],
+  "visits": [
+    {
+      "id": "vis-1791376779701-721",
+      "badgeNumber": "VIS-121",
+      "type": "visitor",
+      "name": "Charlotte Bronte",
+      "email": "charlotte.bronte@guest.local",
+      "company": "Yorkshire Lit",
+      "hostEmployee": "Marcus Vance",
+      "purpose": "Annual Audit",
+      "location": "Lobby / Floor 1",
+      "checkInTime": "2026-10-07T12:39:39.701Z",
+      "status": "checked_out",
+      "ndaAgreed": true,
+      "assignedEquipment": [],
+      "checkedInBy": "Self-Service Kiosk",
+      "checkOutTime": "2026-10-07T12:39:46.407Z",
+      "durationMinutes": 1
+    },
+    {
+      "id": "vis-1",
+      "badgeNumber": "VIS-101",
+      "type": "visitor",
+      "name": "David Lindholm",
+      "email": "d.lindholm@nordicinvest.se",
+      "phone": "+46 70 812 3456",
+      "company": "Nordic Capital Partners",
+      "hostEmployee": "Marcus Vance",
+      "purpose": "Series B Strategic Review & Board Meeting",
+      "location": "Executive Boardroom 4A",
+      "checkInTime": "2026-10-07T11:04:14.180Z",
+      "status": "active",
+      "ndaAgreed": true,
+      "notes": "Requires visitor WiFi and guest parking validation"
+    },
+    {
+      "id": "vis-2",
+      "badgeNumber": "VIS-102",
+      "type": "contractor",
+      "name": "Rachel Sterling",
+      "email": "rsterling@apex-hvac.co.uk",
+      "company": "Apex Climate Engineering",
+      "hostEmployee": "Tariq Al-Mansoor",
+      "purpose": "Quarterly Server Room Chiller Diagnostics",
+      "location": "Data Center B2 Sublevel",
+      "checkInTime": "2026-10-07T10:19:14.180Z",
+      "status": "active",
+      "ndaAgreed": true,
+      "notes": "Escorted entry permit granted; safety hardhat issued"
+    },
+    {
+      "id": "vis-3",
+      "badgeNumber": "EMP-014",
+      "type": "employee",
+      "name": "Dr. Elena Rostova",
+      "email": "elena.rostova@vanguardhq.com",
+      "hostEmployee": "Self",
+      "department": "Engineering",
+      "purpose": "Core Work Hours & Lab Hardware Testing",
+      "location": "Photonics Lab B",
+      "checkInTime": "2026-10-07T07:59:14.180Z",
+      "status": "active",
+      "ndaAgreed": true
+    },
+    {
+      "id": "vis-4",
+      "badgeNumber": "EMP-022",
+      "type": "employee",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@vanguardhq.com",
+      "hostEmployee": "Self",
+      "department": "Product",
+      "purpose": "Executive Sprint Planning",
+      "location": "Floor 3 - Open Workspace",
+      "checkInTime": "2026-10-07T08:29:14.180Z",
+      "status": "active",
+      "ndaAgreed": true
+    },
+    {
+      "id": "vis-5",
+      "badgeNumber": "VIS-103",
+      "type": "visitor",
+      "name": "Kenji Takahashi",
+      "email": "ktakahashi@murata-tech.jp",
+      "company": "Murata Technologies Ltd",
+      "hostEmployee": "Dr. Elena Rostova",
+      "purpose": "Optical Sensor Integration Workshop",
+      "location": "R&D Innovation Lab 2",
+      "checkInTime": "2026-10-07T11:54:14.180Z",
+      "status": "active",
+      "ndaAgreed": true,
+      "notes": "Non-disclosure agreement countersigned on arrival"
+    },
+    {
+      "id": "vis-6",
+      "badgeNumber": "VIS-098",
+      "type": "visitor",
+      "name": "Maya Lin",
+      "email": "m.lin@designsystemic.com",
+      "company": "Systemic Studio",
+      "hostEmployee": "Marcus Vance",
+      "purpose": "Product Brand Design Sign-off",
+      "location": "Design Studio 1C",
+      "checkInTime": "2026-10-07T07:19:14.180Z",
+      "checkOutTime": "2026-10-07T11:59:14.180Z",
+      "status": "checked_out",
+      "durationMinutes": 280,
+      "ndaAgreed": true
+    },
+    {
+      "id": "vis-7",
+      "badgeNumber": "EMP-078",
+      "type": "employee",
+      "name": "Julian Morales",
+      "email": "julian.morales@vanguardhq.com",
+      "hostEmployee": "Self",
+      "department": "Engineering",
+      "purpose": "Shift Complete (Offsite testing)",
+      "location": "Hardware Bay 1",
+      "checkInTime": "2026-10-07T05:59:14.180Z",
+      "checkOutTime": "2026-10-07T10:49:14.180Z",
+      "status": "checked_out",
+      "durationMinutes": 290,
+      "ndaAgreed": true
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-1",
+      "name": "Dr. Elena Rostova",
+      "role": "Head of R&D",
+      "department": "Engineering",
+      "email": "elena.rostova@vanguardhq.com",
+      "badgeNumber": "EMP-014",
+      "currentlyOnSite": true,
+      "lastSeen": "Today, 08:15 AM"
+    },
+    {
+      "id": "emp-2",
+      "name": "Marcus Vance",
+      "role": "VP of Product",
+      "department": "Product",
+      "email": "marcus.vance@vanguardhq.com",
+      "badgeNumber": "EMP-022",
+      "currentlyOnSite": true,
+      "lastSeen": "Today, 08:45 AM"
+    },
+    {
+      "id": "emp-3",
+      "name": "Sarah Chen",
+      "role": "Senior Security Architect",
+      "department": "Infrastructure",
+      "email": "sarah.chen@vanguardhq.com",
+      "badgeNumber": "EMP-039",
+      "currentlyOnSite": true,
+      "lastSeen": "Today, 09:00 AM"
+    },
+    {
+      "id": "emp-4",
+      "name": "Tariq Al-Mansoor",
+      "role": "Operations Director",
+      "department": "Facilities",
+      "email": "tariq.mansoor@vanguardhq.com",
+      "badgeNumber": "EMP-051",
+      "currentlyOnSite": false,
+      "lastSeen": "Yesterday, 06:10 PM"
+    },
+    {
+      "id": "emp-5",
+      "name": "Chloe Dubois",
+      "role": "Legal Counsel",
+      "department": "Legal & Compliance",
+      "email": "chloe.dubois@vanguardhq.com",
+      "badgeNumber": "EMP-063",
+      "currentlyOnSite": true,
+      "lastSeen": "Today, 09:30 AM"
+    },
+    {
+      "id": "emp-6",
+      "name": "Julian Morales",
+      "role": "Hardware Test Lead",
+      "department": "Engineering",
+      "email": "julian.morales@vanguardhq.com",
+      "badgeNumber": "EMP-078",
+      "currentlyOnSite": false,
+      "lastSeen": "Today, 07:45 AM"
+    },
+    {
+      "id": "emp-7",
+      "name": "Amara Okafor",
+      "role": "HR & Talent Partner",
+      "department": "People Operations",
+      "email": "amara.okafor@vanguardhq.com",
+      "badgeNumber": "EMP-084",
+      "currentlyOnSite": true,
+      "lastSeen": "Today, 09:15 AM"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "eq-1",
+      "assetTag": "VNG-LAP-104",
+      "name": "MacBook Pro M3 Max (Dev Loaner)",
+      "category": "laptop",
+      "status": "available",
+      "condition": "Excellent"
+    },
+    {
+      "id": "eq-2",
+      "assetTag": "VNG-RF-209",
+      "name": "Anritsu RF Signal Analyzer 6GHz",
+      "category": "testing",
+      "status": "checked_out",
+      "checkedOutTo": "Dr. Elena Rostova",
+      "checkedOutToBadge": "EMP-014",
+      "checkedOutAt": "2026-10-07T09:39:13.971Z",
+      "expectedReturn": "5:00 PM Today",
+      "condition": "Calibrated"
+    },
+    {
+      "id": "eq-3",
+      "assetTag": "VNG-KEY-04",
+      "name": "Cleanroom Lab Master Keycard",
+      "category": "access_card",
+      "status": "checked_out",
+      "checkedOutTo": "Sarah Chen",
+      "checkedOutToBadge": "EMP-039",
+      "checkedOutAt": "2026-10-07T10:39:13.972Z",
+      "expectedReturn": "4:30 PM Today",
+      "condition": "Active"
+    },
+    {
+      "id": "eq-4",
+      "assetTag": "VNG-CAM-01",
+      "name": "Sony FX3 4K Conference Stream Kit",
+      "category": "av",
+      "status": "available",
+      "condition": "Good"
+    },
+    {
+      "id": "eq-5",
+      "assetTag": "VNG-SCOPE-12",
+      "name": "Keysight 4-Ch Digital Storage Oscilloscope",
+      "category": "testing",
+      "status": "available",
+      "condition": "Good"
+    },
+    {
+      "id": "eq-6",
+      "assetTag": "VNG-BDG-08",
+      "name": "Temporary VIP Escort Smart Badge #08",
+      "category": "visitor_badge",
+      "status": "available",
+      "condition": "Good"
+    }
+  ],
+  "visitCounter": 121
+}
